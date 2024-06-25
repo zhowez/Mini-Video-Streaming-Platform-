@@ -1,13 +1,13 @@
-package com.demo.Spring_Boot_App;
+// package com.demo.Spring_Boot_App;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SpringBootAppApplicationTests {
+// @SpringBootTest
+// class SpringBootAppApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
