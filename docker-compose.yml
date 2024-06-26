@@ -39,5 +39,14 @@ services:
       SPRING_RABBITMQ_USERNAME: user
       SPRING_RABBITMQ_PASSWORD: userpassword
 
+  node-app:
+    build:
+      context: ./Demo-Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - app # Ensure node-app depends on app
+
 volumes:
   mysql-data:
